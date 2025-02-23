@@ -40,3 +40,11 @@
 ## 📞 Contact
 
 If you have any questions or concerns about this privacy policy, please contact me at: **[tauautologin@gmail.com]**
+
+---
+
+## ⚠️ Disclaimer
+
+While the **TAU Auto Login** extension stores user credentials locally and never transmits data externally, users are responsible for ensuring the security of their own devices and browsers. The developers are not liable for any unauthorized access, data loss, or misuse arising from the use of this extension.
+
+By using this extension, you acknowledge and accept these terms.
