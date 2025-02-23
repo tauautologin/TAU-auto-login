@@ -79,3 +79,5 @@ For questions or feedback, feel free to reach out at [tauautologin@gmail.com](ma
 ## ⚡ License
 
 This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
+
+⚠️ **Disclaimer:** While this extension stores credentials locally and does not transmit any data externally, users are responsible for securing their devices and browsers. The developers are not liable for any potential data loss or unauthorized access resulting from the use of this extension.
