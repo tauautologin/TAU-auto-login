@@ -59,9 +59,8 @@ The extension supports **Chromium-based browsers** (Chrome, Edge, Brave, Opera, 
 
 ## 🐞 Issues & Feature Requests
 
-- Found a **bug**? Open a [Bug Report](https://github.com/your-username/tau-auto-login/issues/new?template=bug_report.md).
-- Have a **feature idea**? Suggest it via a [Feature Request](https://github.com/your-username/tau-auto-login/issues/new?template=feature_request.md).
-
+- Found a **bug**? Have a **feature idea**? Open an [Issue](https://github.com/tauautologin/TAU-auto-login/issues)!
+  
 ---
 
 ## 💡 Roadmap
