@@ -1,6 +1,6 @@
 # Privacy Policy for TAU Auto Login Extension
 
-**Effective Date:** [Insert Date]
+**Effective Date:** [02/23/2025]
 
 **TAU Auto Login** is committed to protecting your privacy. This extension does **not collect**, **store**, or **transmit** any personal data externally. All data provided by the user, such as login credentials, is securely stored **locally** within your browser using the browser's built-in storage mechanisms (**chrome.storage.local** or **browser.storage.local**).
 
@@ -39,4 +39,4 @@
 
 ## 📞 Contact
 
-If you have any questions or concerns about this privacy policy, please contact me at: **[Your Email Address]**
+If you have any questions or concerns about this privacy policy, please contact me at: **[tauautologin@gmail.com]**
