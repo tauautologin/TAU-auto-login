@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TAU Auto Login</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 10px; width: 250px; }
+    input[type="text"], input[type="password"] { width: 100%; margin-bottom: 10px; padding: 5px; }
+    button { width: 100%; padding: 5px; }
+    p { color: green; }
+
+    /* Toggle Switch Styling */
+    .toggle-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+
+    .toggle-label {
+      font-size: 14px;
+    }
+
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 40px;
+      height: 20px;
+    }
+
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      transition: 0.4s;
+      border-radius: 20px;
+    }
+
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 16px;
+      width: 16px;
+      left: 2px;
+      bottom: 2px;
+      background-color: white;
+      transition: 0.4s;
+      border-radius: 50%;
+    }
+
+    input:checked + .slider {
+      background-color: #4CAF50;
+    }
+
+    input:checked + .slider:before {
+      transform: translateX(20px);
+    }
+  </style>
+</head>
+<body>
+  <h3>TAU Auto Login</h3>
+
+  <input type="text" id="username" placeholder="Username" />
+  <input type="text" id="userID" placeholder="User ID" />
+  <input type="password" id="password" placeholder="Password" />
+
+  <div class="toggle-container">
+    <span class="toggle-label">Enable Extension</span>
+    <label class="switch">
+      <input type="checkbox" id="enableAutoLogin">
+      <span class="slider"></span>
+    </label>
+  </div>
+
+  <div class="toggle-container">
+    <span class="toggle-label">Auto-Submit After Fill</span>
+    <label class="switch">
+      <input type="checkbox" id="enableAutoSubmit">
+      <span class="slider"></span>
+    </label>
+  </div>
+
+  <button id="save">Save Credentials Securely</button>
+  <p id="status"></p>
+
+  <script src="popup.js"></script>
+</body>
+</html>
