@@ -12,9 +12,9 @@
 
 The extension supports **Chromium-based browsers** (Chrome, Edge, Brave, Opera, etc...) and **Firefox**.
 
-1. **Add the extension** for your browser:
-   - 🟢 **[Chrome Web Store](#)** (Chrome, Edge, Brave, Opera) _(link will be added after approval)_
-   - 🦊 **[Firefox Add-ons (AMO)](#)** _(link will be added after approval)_
+### 🟢 Chromium-Based Browsers (Chrome, Edge, Brave, Opera)
+1. **Add the extension** from the Chrome Web Store:  
+   - 🟢 **[Chrome Web Store](#)** _(link will be added after approval)_
 
 2. **Click “Add to [Browser]”**.
 
@@ -28,13 +28,59 @@ The extension supports **Chromium-based browsers** (Chrome, Edge, Brave, Opera, 
 
 ---
 
+### 🦊 Firefox (Private `.xpi` Installation on Desktop)
+
+1. **Download the `.xpi` file** from [this link](tau_auto_login-1.2.xpi).
+
+2. Open the file with **Firefox**.
+
+3. Confirm the installation by clicking **"Add"**.
+
+4. Open the extension popup and **enter your TAU credentials**.
+
+5. **Enable Auto Login** and **Auto Submit** (both are **enabled by default**).
+
+6. Click on **Save Credentials**.
+
+7. Done! Visit [TAU Login](https://nidp.tau.ac.il/nidp/) and enjoy **automatic login**! 🎉
+
+---
+
+### 📱 Firefox Mobile Installation (Android)
+
+> ⚠️ **Note:** Firefox for iOS does **not** currently support extensions.
+
+1. **Install Firefox Nightly** or **Firefox Beta** from the [Google Play Store](https://play.google.com/store/apps/details?id=org.mozilla.fenix).
+
+2. Enable **Custom Add-ons Collection**:
+   - Open Firefox and go to `about:config`.
+   - Search for `extensions.experiments.enabled` and set it to **true**.
+
+3. Access **Add-ons**:
+   - Tap the **three dots** (⋮) > **Add-ons** > **"Add-ons Manager"**.
+
+4. **Install the Extension**:
+   - Tap **"Install Add-on From File..."**.
+   - Locate and select the downloaded `.xpi` file.
+
+5. **Confirm Installation**:
+   - Tap **"Add"** to confirm and install the extension.
+
+6. Open the extension popup and **enter your TAU credentials**.
+
+7. **Enable Auto Login** and **Auto Submit** (both are **enabled by default**).
+
+8. Done! Now you can enjoy **automatic login** on your mobile browser too! 🎉
+
+---
+
 ## ⚙️ Features
 
 - ✅ **Auto-fill TAU login forms**.
 - ✅ **Auto-submit login forms** (optional).
 - ✅ **Toggle Auto Login & Auto Submit** anytime.
 - ✅ **Locally stored credentials** — **no external data transmission**.
-- ✅ **Supports Chromium-based browsers (Chrome, Edge, Brave, Opera) and Firefox**.
+- ✅ **Supports Chromium-based browsers (Chrome, Edge, Brave, Opera) and Firefox (Desktop & Android)**.
 
 ---
 
@@ -60,7 +106,7 @@ The extension supports **Chromium-based browsers** (Chrome, Edge, Brave, Opera, 
 ## 🐞 Issues & Feature Requests
 
 - Found a **bug**? Have a **feature idea**? Open an [Issue](https://github.com/tauautologin/TAU-auto-login/issues)!
-  
+
 ---
 
 ## 💡 Roadmap
