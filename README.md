@@ -48,7 +48,7 @@ The extension supports **Chromium-based browsers** (Chrome, Edge, Brave, Opera, 
 
 ### 📱 Firefox Mobile Installation (Android)
 
-> ⚠️ **Note:** Firefox for iOS does **not** currently support extensions.
+> ⚠️ **Note:** Firefox for iOS and Chrome mobile do **not** currently support extensions.
 
 1. **Install Firefox Nightly** or **Firefox Beta** from the [Google Play Store](https://play.google.com/store/apps/details?id=org.mozilla.fenix).
 
