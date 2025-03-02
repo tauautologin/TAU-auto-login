@@ -11,18 +11,26 @@ const statusText = document.getElementById("status");
 
 // Load saved settings on popup open
 api.storage.local.get(["credentials"], (data) => {
-    if (data.credentials) {
-        const { username, userID, password, enableAutoLogin, enableAutoSubmit } = data.credentials;
-        usernameInput.value = username || "";
-        userIDInput.value = userID || "";
-        passwordInput.value = password || "";
-        enableAutoLoginCheckbox.checked = enableAutoLogin ?? true;  // Default ON
-        enableAutoSubmitCheckbox.checked = enableAutoSubmit ?? true;  // Default ON
-    } else {
-        // Defaults if no data
-        enableAutoLoginCheckbox.checked = true;
-        enableAutoSubmitCheckbox.checked = true;
+    let credentials = data.credentials || {};
+
+    // Set input fields
+    usernameInput.value = credentials.username || "";
+    userIDInput.value = credentials.userID || "";
+    passwordInput.value = credentials.password || "";
+
+    // Ensure toggles default to ON if not previously set
+    if (credentials.enableAutoLogin === undefined) {
+        credentials.enableAutoLogin = true;
     }
+    if (credentials.enableAutoSubmit === undefined) {
+        credentials.enableAutoSubmit = true;
+    }
+
+    enableAutoLoginCheckbox.checked = credentials.enableAutoLogin;
+    enableAutoSubmitCheckbox.checked = credentials.enableAutoSubmit;
+
+    // Save defaults if they were missing
+    api.storage.local.set({ credentials });
 });
 
 // Save settings when user clicks "Save"
