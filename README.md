@@ -30,7 +30,7 @@ The extension supports **Chromium-based browsers** (Chrome, Edge, Brave, Opera, 
 
 ### 🦊 Firefox (Private `.xpi` Installation on Desktop)
 
-1. **Download the `.xpi` file** from [this link](tau_auto_login-1.2.xpi).
+1. **Download the `.xpi` file** from [this link](tau_auto_login-1.3.xpi).
 
 2. Open the file with **Firefox**.
 
